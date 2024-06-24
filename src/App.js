@@ -7,6 +7,7 @@ import Message from './components/Message.js';
 import Counter from './components/Counter.js';
 import FunctionClick from './components/FunctionClick.js';
 import ClassClick from './components/ClassClick.js';
+import EventBind from './components/EventBind.js';
 
 function App() {
   return (
@@ -33,8 +34,10 @@ function App() {
 
      {/* <Counter /> */}
 
-     <FunctionClick/> 
-     <ClassClick/>
+     {/* <FunctionClick/> 
+     <ClassClick/> */}
+
+     <EventBind/>
 
     </div>
   );

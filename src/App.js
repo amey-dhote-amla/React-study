@@ -8,6 +8,7 @@ import Counter from './components/Counter.js';
 import FunctionClick from './components/FunctionClick.js';
 import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
+import ParentComponent from './components/Video_15/ParentComponent.js';
 
 function App() {
   return (
@@ -37,7 +38,9 @@ function App() {
      {/* <FunctionClick/> 
      <ClassClick/> */}
 
-     <EventBind/>
+     {/* <EventBind/> */}
+
+     <ParentComponent/>
 
     </div>
   );

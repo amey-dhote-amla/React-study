@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
 
-      <Counter/>
+      {/* <Counter /> */}
 
       {/* <Message/> */}
 
@@ -19,13 +19,16 @@ function App() {
       </Greet>
       <Greet name="Jhon" heroName="Superman">
         <button>Action</button>
-      </Greet>
+      </Greet>  */}
       <Greet name="Tim" heroName="Spiderman" />
 
-    <Welcome name="Bruce" heroName="Batman"/> 
+
+      <Welcome name="Bruce" heroName="Batman" />
+      {/*
     <Welcome name="Jhon" heroName="Superman"/> 
     <Welcome name="Tim" heroName="Spiderman"/> 
-    <Hello/>  */}
+    <Hello/> 
+     */}
 
     </div>
   );

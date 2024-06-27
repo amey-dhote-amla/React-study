@@ -25,8 +25,18 @@ function NameList() {
         }
     ]
 
-    const personList = persons.map(person => <Person person = {person}/>)
+    // key props are not accessible in child components
+    const personList = persons.map(person => <Person key={person.id} person = {person}/>)
+    if(person.id=2){
+        
+    }
     return <div>{personList}</div>
 }
 
 export default NameList
+
+/*
+NOTES:
+A "key" is a special string attribute you need to include when creating lists of elements. 
+Keys give the elements a stable identity. Keys help React identify which items have changed, are added, or are removed. Help in efficient update of the user interface.
+*/

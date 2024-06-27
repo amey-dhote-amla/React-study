@@ -27,9 +27,6 @@ function NameList() {
 
     // key props are not accessible in child components
     const personList = persons.map(person => <Person key={person.id} person = {person}/>)
-    if(person.id=2){
-        
-    }
     return <div>{personList}</div>
 }
 

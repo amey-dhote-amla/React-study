@@ -10,6 +10,7 @@ import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
 import ParentComponent from './components/Video_15/ParentComponent.js';
 import UserGreting from './components/Video_16/UerGreeting.js';
+import NameList from './components/Video_17/NameList.js';
 
 function App() {
   return (
@@ -43,7 +44,9 @@ function App() {
 
      {/* <ParentComponent/> */}
 
-     <UserGreting/>
+     {/* <UserGreting/> */}
+
+     <NameList/>
 
     </div>
   );
